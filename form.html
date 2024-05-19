@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Registration Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="form-title"> Internship Registration Form</h1>
+
+        <form action="#">
+            <div class="main-user-info">
+                <div class="form-group">
+                    <label for="firstName">Username</label>
+                    <input type="text" id="firstName" name="firstName" placeholder="Enter UserName" required>
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Full Name</label>
+                    <input type="text" id="lastName" name="lastName" placeholder="Enter FullName" required>
+                </div>
+                <div class="form-group">
+                    <label for="branch">Department</label>
+                    <input type="text" id="branch" name="Department" placeholder="Enter Department" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone Number">Phone Number</label>
+                    <input type="text" id="phoneNumber" name="phone Number" placeholder="Enter phone Number" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter password" required>
+                </div>
+                <div class="form-group">
+                    <label for="python web development"> Course</label>
+                    <select name="python web development" id=" python web development">
+                        <option value="python full stack">python full stack</option>
+                        <option value="java full stack">java full stack</option>
+                        <option value="web development">web development</option>
+                        <option value="Artificial intelligence">Artificial intelligence</option>
+                        <option value="data Analytics">Data Analytics</option>
+                    </select>
+                    <br><br>
+                </div>
+            </div>
+
+            <div class="form-submit-btn">
+                <input type="submit" value="submit">
+            </div>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
